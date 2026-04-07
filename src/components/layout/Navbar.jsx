@@ -44,7 +44,7 @@ function Navbar() {
     }
 
     return (
-        <nav className="fixed top-0 w-full bg-black text-white z-50 shadow-md">
+        <nav className="fixed top-0 w-full  text-white shadow-md bg-[#0f172a00]">
             <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-3">
 
                 {/* Logo */}
@@ -56,7 +56,7 @@ function Navbar() {
                         <li key={link.id}>
                             <button
                                 onClick={() => scrollToSection(link.id)}
-                                className={`hover:text-blue-400 ${active === link.id ? "text-blue-500" : ""
+                                className={`hover:text-blue-400 ${active === link.id ? "text-cyan-400" : ""
                                     }`}
                             >
                                 {link.name}
@@ -76,7 +76,7 @@ function Navbar() {
 
             {/* Mobile Menu */}
             {open && (
-                <ul className="md:hidden bg-black px-4 pb-4 space-y-3">
+                <ul className="md:hidden flex flex-col items-center bg-gradient-to-br from-[#0f172a] via-black to-[#020617] px-4 pb-4 space-y-3">
                     {navLinks.map((link) => (
                         <li key={link.id}>
                             <button
