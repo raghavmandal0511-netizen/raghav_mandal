@@ -23,10 +23,9 @@ function Hero() {
                             <span className="text-cyan-400 font-semibold">
                                 <ReactTyped
                                     strings={[
-                                        "Developer",
-                                        "Gamer",
-                                        "Kabaddi Player",
-                                        "Robotics Enthusiast",
+                                        "Software Engineer",
+                                        "Robotics Engineer",
+                                        "kabddi player (District Level)"
                                     ]}
                                     typeSpeed={80}
                                     backSpeed={50}

@@ -1,18 +1,17 @@
 import { useState, useEffect } from "react"
+import { FaHome, FaUser, FaCode, FaProjectDiagram, FaEnvelope } from "react-icons/fa"
 
 const navLinks = [
-    { name: "Home", id: "hero" },
-    { name: "About", id: "about" },
-    { name: "Skills", id: "skills" },
-    { name: "Projects", id: "projects" },
-    { name: "Contact", id: "contact" },
+    { name: "Home", id: "hero", icon: <FaHome /> },
+    { name: "About", id: "about", icon: <FaUser /> },
+    { name: "Skills", id: "skills", icon: <FaCode /> },
+    { name: "Projects", id: "projects", icon: <FaProjectDiagram /> },
+    { name: "Contact", id: "contact", icon: <FaEnvelope /> },
 ]
 
 function Navbar() {
     const [active, setActive] = useState("hero")
-    const [open, setOpen] = useState(false)
 
-    // 🔥 detect active section on scroll
     useEffect(() => {
         const handleScroll = () => {
             const scrollY = window.scrollY
@@ -34,63 +33,34 @@ function Navbar() {
         return () => window.removeEventListener("scroll", handleScroll)
     }, [])
 
-    // 🔥 smooth scroll
     const scrollToSection = (id) => {
-        const section = document.getElementById(id)
-        if (section) {
-            section.scrollIntoView({ behavior: "smooth" })
-            setOpen(false)
-        }
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })
     }
 
     return (
-        <nav className="fixed top-0 w-full  text-white shadow-md bg-[#020617]">
+        <nav className="fixed  w-full bg-black/60 backdrop-blur-md text-white z-50">
             <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-3">
 
                 {/* Logo */}
-                <h1 className="text-xl font-bold">Raghav Mandal</h1>
+                <h1 className="text-xl font-bold">RM</h1>
 
-                {/* Desktop Menu */}
+                {/* Desktop Nav */}
                 <ul className="hidden md:flex gap-6">
                     {navLinks.map((link) => (
                         <li key={link.id}>
                             <button
                                 onClick={() => scrollToSection(link.id)}
-                                className={`hover:text-blue-400 ${active === link.id ? "text-cyan-400" : ""
+                                className={`flex items-center gap-2 hover:text-cyan-400 transition ${active === link.id ? "text-cyan-400" : ""
                                     }`}
                             >
+                                {link.icon}
                                 {link.name}
                             </button>
                         </li>
                     ))}
                 </ul>
-
-                {/* Mobile Button */}
-                <button
-                    className="md:hidden"
-                    onClick={() => setOpen(!open)}
-                >
-                    ☰
-                </button>
             </div>
-
-            {/* Mobile Menu */}
-            {open && (
-                <ul className="md:hidden flex flex-col items-center bg-gradient-to-br from-[#0f172a] via-black to-[#020617] px-4 pb-4 space-y-3">
-                    {navLinks.map((link) => (
-                        <li key={link.id}>
-                            <button
-                                onClick={() => scrollToSection(link.id)}
-                                className="block w-full text-left"
-                            >
-                                {link.name}
-                            </button>
-                        </li>
-                    ))}
-                </ul>
-            )}
         </nav>
-
     )
 }
 
