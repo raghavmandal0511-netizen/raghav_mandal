@@ -1,16 +1,96 @@
-# React + Vite
+# 👋 Hi, I'm Raghav Mandal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Software Engineer | Robotics Engineer | eYRC Top 5 (2025–26)**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧠 About Me
 
-## React Compiler
+- 💻 Software Engineer with strong full-stack development skills
+- 🤖 Robotics Engineer working with **ROS2, OpenCV, UR5 manipulation**
+- 🏆 Achievements:
+  - 🥇 Hackathon Winner – Python Code 2025
+  - 🥈 CodeWave 1.0 Runner-Up (SSEC Bhavnagar)
+  - 🎯 Top 5 – eYRC 2025–26 (Krishi CoBot)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🏃 Kabaddi Player (District Level)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech Stack
+
+### 👨‍💻 Languages
+
+`C` `Java` `Python` `JavaScript` `PHP`
+
+### 🌐 Web Development
+
+`React.js` `Next.js` `Node.js` `Express.js` `HTML` `CSS` `Tailwind CSS`
+
+### 🗄️ Databases
+
+`MongoDB` `MySQL`
+
+### 🤖 Robotics
+
+`ROS2` `OpenCV` `TF` `Gazebo` `UR5 Manipulation`
+
+### 🛠️ Tools
+
+`Git` `GitHub`
+
+---
+
+## 🔥 Projects
+
+### 🤖 Krishi CoBot (eYRC 2025–26)
+
+- Built autonomous agricultural robotic system
+- Implemented perception using OpenCV + RGB-D
+- UR5 manipulation using Cartesian servoing
+- Multi-system integration (Perception + Navigation + Control)
+
+---
+
+### 🧠 InterviewIQ – AI Interview Platform
+
+- AI-based interview practice system
+- Question-based simulation with feedback
+- Built using Next.js, Node.js, PostgreSQL
+
+🔗 Live: https://ai-interviewer-sable.vercel.app/
+
+---
+
+### 🌾 FarmFresh AI (Hackathon Runner-Up 🏆)
+
+- Platform for farmers to directly sell to consumers
+- Worked as frontend developer
+- Built using Next.js
+
+🔗 Repo: https://github.com/amanchauhan-dev/farm-fresh-ai-frontend
+
+---
+
+## 📫 Connect With Me
+
+- 💼 LinkedIn: https://www.linkedin.com/in/raghav-mandal-4b678b34a
+- 🐙 GitHub: https://github.com/raghavmandal0511-netizen
+- 📸 Instagram: https://www.instagram.com/_.raghav.01
+- 🐦 Twitter (X): https://x.com/Raghav_Mandal_
+- 📧 Email: [raghavmandal0511@gmail.com](mailto:raghavmandal0511@gmail.com)
+
+---
+
+## ⚡ Portfolio
+
+🌐 (Add your deployed portfolio link here)
+
+---
+
+## ⭐ Final Note
+
+> I love building real-world systems combining software and robotics.
+> Always learning, always building 🚀
+
+---
