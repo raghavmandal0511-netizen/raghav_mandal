@@ -22,7 +22,7 @@ function Hero() {
         }, 2500)
 
         return () => clearInterval(interval)
-    }, [])
+    }, [images.length])
 
     return (
         <section
