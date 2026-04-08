@@ -34,7 +34,7 @@ function Achievements() {
     }, [])
 
     return (
-        <section id="achievements" className="py-20 bg-gradient-to-br from-[#000104] via-[#020617] to-[#0f172a] text-white">
+        <section id="achievements" className="py-20  scroll-mt-24  bg-gradient-to-br from-[#000104] via-[#020617] to-[#0f172a] text-white">
             <div className="max-w-6xl mx-auto px-4">
 
                 {/* 🔹 Title */}
