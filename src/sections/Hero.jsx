@@ -99,7 +99,7 @@ function Hero() {
                     {/* BUTTON */}
                     <div data-aos="fade-up" data-aos-delay="300">
                         <a
-                            href="#"
+                            href="https://drive.google.com/file/d/1f31BxQjs5rK0XO7vYXwRcmRl1HjqNrlh/view?usp=drive_link"
                             className="inline-block px-6 py-3 bg-cyan-500 rounded-lg hover:bg-cyan-400 transition font-semibold shadow-lg"
                         >
                             Download Resume
